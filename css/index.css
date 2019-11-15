@@ -146,7 +146,7 @@ html {
   justify-content: space-around;
 }
 .header-nav nav .logIn {
-  color: #E07BE0;
+  color: #932F6D;
 }
 .header-nav nav a {
   margin-right: 2%;
@@ -220,6 +220,7 @@ html {
 .main-container .firstSection .firstDiv {
   width: 75%;
   margin-right: 1%;
+  padding: 2%;
 }
 .main-container .firstSection .firstDiv p {
   color: #420039;
@@ -231,12 +232,14 @@ html {
 .main-container .firstSection .secondDiv {
   width: 75%;
   margin-right: 1%;
+  padding: 2%;
 }
 .main-container .firstSection .secondDiv p {
   color: #420039;
 }
 .main-container .firstSection .thirdDiv {
   width: 75%;
+  padding: 2%;
 }
 .main-container .firstSection .thirdDiv p {
   color: #420039;
