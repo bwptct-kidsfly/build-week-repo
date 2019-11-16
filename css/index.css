@@ -191,8 +191,10 @@ html {
 }
 .main-container .img-div {
   background: url(../design-files/planeride.jpg) no-repeat;
+  height: 78vh;
+  width: 100%;
   display: block;
-  padding: 250px;
+  padding: 225px;
   background-position: center;
   background-size: cover;
   margin-bottom: 8%;
