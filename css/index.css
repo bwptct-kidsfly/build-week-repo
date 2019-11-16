@@ -140,6 +140,13 @@ html {
   align-items: center;
   margin-right: 2%;
 }
+@media (max-width: 500px) {
+  .header-nav {
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3%;
+  }
+}
 .header-nav nav {
   width: 100%;
   display: flex;
@@ -147,7 +154,6 @@ html {
 }
 .header-nav nav .logIn {
   color: #932F6D;
-  opacity: 0.7;
 }
 .header-nav nav a {
   margin-right: 2%;
@@ -162,6 +168,12 @@ html {
   display: flex;
   justify-content: space-between;
   padding: 3%;
+}
+@media (max-width: 500px) {
+  .main-container header {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .main-container header .h1 {
   width: 50%;
@@ -185,6 +197,11 @@ html {
   background-size: cover;
   margin-bottom: 8%;
 }
+@media (max-width: 500px) {
+  .main-container .img-div {
+    padding: 150px;
+  }
+}
 .main-container .img-div .img-h3 {
   margin-left: 6%;
   margin-bottom: 1%;
@@ -194,11 +211,21 @@ html {
   letter-spacing: 1px;
   font-weight: bold;
 }
+@media (max-width: 500px) {
+  .main-container .img-div .img-h3 {
+    font-size: 3rem;
+  }
+}
 .main-container .img-div .img-p {
   margin-left: 6%;
   color: white;
   font-size: 3rem;
   letter-spacing: 1px;
+}
+@media (max-width: 500px) {
+  .main-container .img-div .img-p {
+    font-size: 2rem;
+  }
 }
 .main-container .firstSection {
   display: flex;
@@ -208,6 +235,12 @@ html {
   background-color: #F6F2FF;
   padding-left: 2%;
   padding-right: 2%;
+}
+@media (max-width: 500px) {
+  .main-container .firstSection {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .main-container .firstSection .icons {
   text-align: center;
@@ -229,6 +262,7 @@ html {
 }
 .main-container .firstSection .firstDiv p {
   color: #420039;
+  opacity: 0.7;
 }
 .main-container .firstSection .firstDiv .fa-wind {
   text-align: center;
@@ -244,6 +278,7 @@ html {
 }
 .main-container .firstSection .secondDiv p {
   color: #420039;
+  opacity: 0.7;
 }
 .main-container .firstSection .thirdDiv {
   width: 75%;
@@ -251,6 +286,7 @@ html {
 }
 .main-container .firstSection .thirdDiv p {
   color: #420039;
+  opacity: 0.7;
 }
 .main-container .firstSection .thirdDiv .btn {
   margin-top: 5%;
@@ -268,7 +304,7 @@ html {
   text-align: center;
   line-height: 1.4;
   letter-spacing: 1px;
-  font-family: 'Montserra', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .main-container .firstSection .btn {
   display: flex;
