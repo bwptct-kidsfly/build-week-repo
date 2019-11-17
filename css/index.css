@@ -212,6 +212,7 @@ html {
   line-height: 1.4;
   letter-spacing: 1px;
   font-weight: bold;
+  font-style: italic;
 }
 @media (max-width: 500px) {
   .main-container .img-div .img-h3 {
