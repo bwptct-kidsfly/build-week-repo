@@ -360,8 +360,10 @@ html {
 }
 .main-container footer .footerContent h3 {
   font-size: 2.5rem;
-  color: #420039;
   margin-bottom: 1%;
+  color: #420039;
+}
+.main-container footer .footerContent h3 span {
   color: #E07BE0;
 }
 .main-container footer .footerContent .social a {
@@ -373,6 +375,9 @@ html {
   font-size: 1.3rem;
   margin-bottom: 5%;
   margin: 5px;
+  color: #420039;
+}
+.main-container footer .footerContent .copyright span {
   color: #E07BE0;
 }
 .main-container footer .footerContent nav {
