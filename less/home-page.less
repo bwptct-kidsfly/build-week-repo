@@ -7,6 +7,7 @@
         display: flex;
         justify-content: space-between;
         padding: 3%;
+        // background-color: #F5C4DC;
 
         @media @phone{
             flex-direction: column;
@@ -77,15 +78,40 @@
         }
     }
 
-    
+    .intro{
+        text-align: center;
+        padding-top: 2%;
+        // background-color: #F5C4DC;
+        padding-bottom: 2%;
+
+        h2{
+        color: #932F6D;
+        font-size: 3.5rem;
+        // text-align: center;
+        font-family: 'PT sans', sans-serif;
+        font-weight: 200;
+        }
+
+        p{
+            color: #420039;
+            opacity: 0.7;
+            font-size: 2rem;
+            // border: @borderBoxRed;
+            line-height: 1.4;
+            letter-spacing: 1px;
+            font-family: 'Source Sans Pro', sans-serif;
+            padding: 5%;
+        }
+    }
+
     .firstSection{
         display: flex;
         justify-content: center;
         // border: @borderBoxBlue;
         margin-top: @topMargin;
         // margin-top: 2%;
-        margin-bottom: 2%;
-        background-color: #F6F2FF;
+        margin-bottom: 10%;
+        // background-color: #F6F2FF;
         padding-left: 2%;
         padding-right: 2%;
 
@@ -112,7 +138,7 @@
             padding: 2%;
 
             .btn{
-                margin-top: 20%;
+                margin-top: 34%;
             }
     
 
@@ -197,6 +223,56 @@
             }
         }
     } // firstSection
+
+    footer{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: #932F6D;
+        opacity: 0.8;
+        height: 150px;
+
+        .footerContent{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin-bottom: 2%;
+            width: 30%;
+            // border: @borderBoxBlue;
+
+            h3{
+                font-size: 2.5rem;
+                color: #420039;
+                margin-bottom: 1%;
+                color: #E07BE0;
+            }
+
+            .social a{
+                margin-right: 1%;
+                position: relative;
+                left: 5px;
+            }
+
+            .copyright{
+                font-size: 1.3rem;
+                margin-bottom: 5%;
+                margin: 5px;
+                color: #E07BE0;
+            }
+
+            nav{
+                font-size: 1.5rem;
+                display: flex;
+                justify-content: center;
+                // border: @borderBoxBlue;
+                justify-content: space-around;
+
+                a{
+                    color: #E07BE0;
+                }
+            }
+        }// .footerContent
+    } // footer
 
 } // .main-container
 
