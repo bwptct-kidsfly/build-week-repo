@@ -282,6 +282,10 @@ html {
 .main-container .firstSection .firstDiv .btn {
   margin-top: 34%;
 }
+.main-container .firstSection .firstDiv .btn a {
+  text-decoration: none;
+  color: #E07BE0;
+}
 .main-container .firstSection .firstDiv p {
   color: #420039;
   opacity: 0.7;
@@ -298,6 +302,10 @@ html {
 .main-container .firstSection .secondDiv .btn {
   margin-top: 27%;
 }
+.main-container .firstSection .secondDiv .btn a {
+  text-decoration: none;
+  color: #E07BE0;
+}
 .main-container .firstSection .secondDiv p {
   color: #420039;
   opacity: 0.7;
@@ -312,6 +320,10 @@ html {
 }
 .main-container .firstSection .thirdDiv .btn {
   margin-top: 5%;
+}
+.main-container .firstSection .thirdDiv .btn a {
+  text-decoration: none;
+  color: #E07BE0;
 }
 .main-container .firstSection h2 {
   color: #932F6D;
