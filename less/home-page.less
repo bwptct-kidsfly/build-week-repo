@@ -81,13 +81,11 @@
     .intro{
         text-align: center;
         padding-top: 2%;
-        // background-color: #F5C4DC;
         padding-bottom: 2%;
 
         h2{
         color: #932F6D;
         font-size: 3.5rem;
-        // text-align: center;
         font-family: 'PT sans', sans-serif;
         font-weight: 200;
         }
@@ -236,17 +234,18 @@
                 font-size: 2rem; 
                 font-weight: 700;
                 color: #DCCCFF;
-                background-color: #932F6D;
+                background-color: #420039;
                 opacity: 0.7;
-                background-image: linear-gradient(to top, #420039 50%, transparent 50%);
-                background-position: 100% 0%;
-                background-size: 200% 100%;
-                transition: 0.5s;
+                box-shadow: #932F6D;
 
                 a:hover{
-                    background-position: 0% 50%;
+                    color: #F6F2FF;
                 }
+            } // button
 
+            button:hover{
+                cursor: pointer;
+                background-color: #932F6D;
             }
         }
     } // firstSection

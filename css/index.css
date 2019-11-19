@@ -153,9 +153,6 @@ html {
   justify-content: space-around;
   text-align: center;
 }
-.header-nav nav .logIn {
-  color: #932F6D;
-}
 .header-nav nav a {
   padding: 2%;
   width: 100%;
@@ -167,6 +164,7 @@ html {
 }
 .header-nav nav a:hover {
   border-bottom: 1px solid #932F6D;
+  color: #420039;
 }
 .main-container {
   background-color: #F6F2FF;
@@ -359,15 +357,16 @@ html {
   font-size: 2rem;
   font-weight: 700;
   color: #DCCCFF;
-  background-color: #932F6D;
+  background-color: #420039;
   opacity: 0.7;
-  background-image: linear-gradient(to top, #420039 50%, transparent 50%);
-  background-position: 100% 0%;
-  background-size: 200% 100%;
-  transition: 0.5s;
+  box-shadow: #932F6D;
 }
 .main-container .firstSection .btn button a:hover {
-  background-position: 0% 50%;
+  color: #F6F2FF;
+}
+.main-container .firstSection .btn button:hover {
+  cursor: pointer;
+  background-color: #932F6D;
 }
 .main-container footer {
   display: flex;
