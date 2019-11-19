@@ -163,6 +163,7 @@ html {
   text-decoration: none;
   font-size: 2rem;
   color: #932F6D;
+  font-family: sans-serif;
 }
 .header-nav nav a:hover {
   border-bottom: 1px solid #932F6D;
@@ -387,6 +388,7 @@ html {
   font-size: 2.5rem;
   margin-bottom: 1%;
   color: #420039;
+  font-family: sans-serif, serif;
 }
 .main-container footer .footerContent h3 span {
   color: #E07BE0;
@@ -401,6 +403,7 @@ html {
   margin-bottom: 5%;
   margin: 5px;
   color: #420039;
+  font-family: sans-serif, serif;
 }
 .main-container footer .footerContent .copyright span {
   color: #E07BE0;
@@ -413,6 +416,7 @@ html {
 }
 .main-container footer .footerContent nav a {
   color: #E07BE0;
+  font-family: sans-serif;
 }
 .main-container footer .footerContent nav a:hover {
   color: #420039;
