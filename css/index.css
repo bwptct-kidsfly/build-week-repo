@@ -134,8 +134,8 @@ html {
   font-size: 62.5%;
 }
 .header-nav {
-  width: 30%;
-  max-height: 200%;
+  width: 45%;
+  height: 50px;
   display: flex;
   align-items: center;
   margin-right: 2%;
@@ -148,18 +148,24 @@ html {
   }
 }
 .header-nav nav {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
+  text-align: center;
 }
 .header-nav nav .logIn {
   color: #932F6D;
 }
 .header-nav nav a {
+  padding: 2%;
+  width: 100%;
   margin-right: 2%;
   text-decoration: none;
   font-size: 2rem;
   color: #932F6D;
+}
+.header-nav nav a:hover {
+  border-bottom: 1px solid #932F6D;
 }
 .main-container {
   background-color: #F6F2FF;
@@ -347,13 +353,20 @@ html {
 }
 .main-container .firstSection .btn button {
   padding: 4%;
-  width: 70%;
+  width: 60%;
   border-radius: 10px;
   font-size: 2rem;
   font-weight: 700;
   color: #DCCCFF;
   background-color: #932F6D;
   opacity: 0.7;
+  background-image: linear-gradient(to top, #420039 50%, transparent 50%);
+  background-position: 100% 0%;
+  background-size: 200% 100%;
+  transition: 0.5s;
+}
+.main-container .firstSection .btn button a:hover {
+  background-position: 0% 50%;
 }
 .main-container footer {
   display: flex;
@@ -400,4 +413,7 @@ html {
 }
 .main-container footer .footerContent nav a {
   color: #E07BE0;
+}
+.main-container footer .footerContent nav a:hover {
+  color: #420039;
 }
