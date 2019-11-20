@@ -142,8 +142,8 @@ html {
 }
 @media (max-width: 500px) {
   .header-nav {
-    justify-content: space-between;
-    width: 449px;
+    justify-content: space-evenly;
+    width: 100%;
     margin-top: 3%;
     margin-right: 0;
   }
