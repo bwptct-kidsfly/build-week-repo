@@ -167,6 +167,8 @@ html {
   border-bottom: 1px solid #932F6D;
   color: #420039;
   font-size: 2.1rem;
+  font-weight: 100;
+  box-shadow: 0 0 20px #000000b3;
 }
 .main-container {
   background-color: #F6F2FF;
@@ -351,6 +353,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: baseline;
+  height: 60px;
 }
 .main-container .firstSection .btn button {
   padding: 4%;
@@ -371,6 +374,7 @@ html {
   cursor: pointer;
   background-color: #932F6D;
   font-size: 2.1rem;
+  box-shadow: 0 0 20px #000000b3;
 }
 .main-container footer {
   display: flex;
@@ -433,7 +437,7 @@ html {
 .secTwo {
   display: flex;
   justify-content: center;
-  margin-bottom: 20%;
+  margin-bottom: 17%;
 }
 .secTwo .contact-form {
   width: 85%;
@@ -446,13 +450,46 @@ html {
   box-sizing: border-box;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 0 20px #000000b3;
+  letter-spacing: 1px;
 }
 .secTwo .contact-form .c-h1 {
   line-height: 2.5;
+  margin-bottom: 5%;
   color: #F6F2FF;
+  font-size: 2.5rem;
 }
 .secTwo .contact-form .text-box {
   color: #F6F2FF;
+  font-size: 1.4rem;
+  border: 1px solid gray;
+  margin: 3% 0;
+  padding: 6% 9%;
+  border-radius: 4%;
+}
+.secTwo .contact-form .text-box label {
+  display: block;
+  text-align: left;
+  text-transform: uppercase;
+}
+.secTwo .contact-form .text-box input,
+.secTwo .contact-form .text-box textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  margin-top: 3%;
+  border-radius: 3%;
+  padding: 4%;
+}
+.secTwo .contact-form .bttn {
+  display: inline-block;
+  font-size: 1.7rem;
+  color: #F6F2FF;
+}
+.secTwo .contact-form .bttn:hover {
+  color: #932F6D;
+  opacity: 1;
 }
 footer {
   border-top: 3px solid #420039;
