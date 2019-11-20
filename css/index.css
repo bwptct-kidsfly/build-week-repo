@@ -457,6 +457,7 @@ html {
   font-family: 'Montserrat', sans-serif;
   box-shadow: 0 0 20px #000000b3;
   letter-spacing: 1px;
+  opacity: 0.9;
 }
 .bg-img .secTwo .contact-form .c-h1 {
   line-height: 2.5;
