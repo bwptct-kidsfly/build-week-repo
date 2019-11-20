@@ -389,6 +389,7 @@ body .firstSection .thirdDiv .btn {
 @media (max-width: 500px) {
   body .firstSection .thirdDiv .btn {
     margin-bottom: 7%;
+    width: 100%;
   }
 }
 body .firstSection .thirdDiv .btn a {
