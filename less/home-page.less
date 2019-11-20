@@ -495,15 +495,32 @@ body{
 
 //////////// ---- About Page ------ //////////////
 
+.headerThree{
+    border-bottom: 2px solid #932F6D;
+}
+
 .container{
     margin-top: 5%;
 
+    img{
+        width:100%;
+    }
+
     h1{
         font-family: 'Allura', cursive;
-        font-size: 5rem;
+        font-size: 3.5rem;
         color: #932F6D;
         margin-bottom: 5%;
         text-align: center;
+    }
+
+    h2{
+        font-size: 3rem;
+        margin-top: 2%;
+    }
+    
+    p{
+        font-size: 2rem;
     }
 
     .squad{
@@ -523,6 +540,14 @@ body{
             letter-spacing: 1px;
             width: 33%;
             margin: 1%;
+            border-radius: 2%;
+            padding: 2%;
+
+            p.title{
+                text-transform: uppercase;
+                font-size: 1.5rem;
+                margin: 2% 0;
+            }
         }
     }// .squad
 } // .container
@@ -530,6 +555,19 @@ body{
 .container2{
     margin-top: 5%;
     margin-bottom: 7%;
+
+    img{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 3rem;
+        margin-top: 2%;
+    }
+
+    p{
+        font-size: 2rem;
+    }
 
     .lead{
         display: flex;
@@ -547,10 +585,17 @@ body{
         line-height: 1.4;
         letter-spacing: 1px;
         width: 33%;
-            
+        border-radius: 2%;
+        padding: 2%;
+
+        p.title{
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            margin: 2% 0;
+        }
     }
 
     footer{
         border-top: 1px solid #420039;
     }
-}
+} // .container2
