@@ -434,12 +434,17 @@ html {
 .headerTwo {
   border-bottom: 3px solid #932F6D;
 }
-.secTwo {
+.bg-img {
+  background: url(https://images.pexels.com/photos/2914751/pexels-photo-2914751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  height: 100%;
+  padding: 15%;
+}
+.bg-img .secTwo {
   display: flex;
   justify-content: center;
   margin-bottom: 17%;
 }
-.secTwo .contact-form {
+.bg-img .secTwo .contact-form {
   width: 85%;
   max-width: 600px;
   background: #420039;
@@ -453,13 +458,13 @@ html {
   box-shadow: 0 0 20px #000000b3;
   letter-spacing: 1px;
 }
-.secTwo .contact-form .c-h1 {
+.bg-img .secTwo .contact-form .c-h1 {
   line-height: 2.5;
   margin-bottom: 5%;
   color: #F6F2FF;
   font-size: 2.5rem;
 }
-.secTwo .contact-form .text-box {
+.bg-img .secTwo .contact-form .text-box {
   color: #F6F2FF;
   font-size: 1.4rem;
   border: 1px solid gray;
@@ -467,13 +472,13 @@ html {
   padding: 6% 9%;
   border-radius: 4%;
 }
-.secTwo .contact-form .text-box label {
+.bg-img .secTwo .contact-form .text-box label {
   display: block;
   text-align: left;
   text-transform: uppercase;
 }
-.secTwo .contact-form .text-box input,
-.secTwo .contact-form .text-box textarea {
+.bg-img .secTwo .contact-form .text-box input,
+.bg-img .secTwo .contact-form .text-box textarea {
   width: 100%;
   border: none;
   outline: none;
@@ -482,12 +487,12 @@ html {
   border-radius: 3%;
   padding: 4%;
 }
-.secTwo .contact-form .bttn {
+.bg-img .secTwo .contact-form .bttn {
   display: inline-block;
   font-size: 1.7rem;
   color: #F6F2FF;
 }
-.secTwo .contact-form .bttn:hover {
+.bg-img .secTwo .contact-form .bttn:hover {
   color: #932F6D;
   opacity: 1;
 }
