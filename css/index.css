@@ -191,7 +191,7 @@ body {
 @media (max-width: 500px) {
   body {
     margin: 0 auto;
-    width: 150%;
+    width: 100%;
   }
 }
 body header {
