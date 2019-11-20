@@ -143,13 +143,12 @@ html {
 @media (max-width: 500px) {
   .header-nav {
     justify-content: space-between;
-    border: 2px solid red;
     width: 100%;
     margin-top: 3%;
+    margin-right: 0;
   }
 }
 .header-nav nav {
-  border: 1px solid blue;
   width: 100%;
   height: 100%;
   display: flex;
@@ -171,7 +170,6 @@ html {
 }
 @media (max-width: 500px) {
   .header-nav nav a {
-    border: 1px solid red;
     margin-right: 0;
   }
 }
@@ -186,6 +184,7 @@ html {
   background-color: #F6F2FF;
 }
 .main-container header {
+  border: 2px solid black;
   display: flex;
   justify-content: space-between;
   padding: 3%;
@@ -234,12 +233,13 @@ html {
   letter-spacing: 1px;
   font-weight: bold;
   font-style: italic;
+  font-family: serif, sans-serif;
 }
 @media (max-width: 500px) {
   .main-container .img-div .img-h3 {
     font-size: 3rem;
     position: relative;
-    right: 15%;
+    right: 30%;
   }
 }
 .main-container .img-div .img-p {
@@ -247,12 +247,14 @@ html {
   color: white;
   font-size: 3rem;
   letter-spacing: 1px;
+  font-family: serif, sans-serif;
 }
 @media (max-width: 500px) {
   .main-container .img-div .img-p {
+    width: 300px;
     font-size: 2rem;
     position: relative;
-    right: 15%;
+    right: 30%;
   }
 }
 .main-container .intro {
@@ -271,6 +273,11 @@ html {
   font-size: 3.5rem;
   font-family: 'PT sans', sans-serif;
   font-weight: 200;
+}
+@media (max-width: 500px) {
+  .main-container .intro h2 {
+    padding: 2%;
+  }
 }
 .main-container .intro p {
   color: #420039;
@@ -371,7 +378,7 @@ html {
 }
 @media (max-width: 500px) {
   .main-container .firstSection .thirdDiv .btn {
-    margin-bottom: 10%;
+    margin-bottom: 7%;
   }
 }
 .main-container .firstSection .thirdDiv .btn a {
@@ -435,6 +442,11 @@ html {
   justify-content: flex-end;
   margin-bottom: 2%;
   width: 70%;
+}
+@media (max-width: 500px) {
+  .main-container footer .footerContent {
+    margin-top: 2%;
+  }
 }
 .main-container footer .footerContent h3 {
   font-size: 2.5rem;
