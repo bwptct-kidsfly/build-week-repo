@@ -390,6 +390,13 @@ body .firstSection .thirdDiv .btn {
   body .firstSection .thirdDiv .btn {
     margin-bottom: 7%;
     width: 100%;
+    border: 1px solid red;
+    height: 100px;
+  }
+}
+@media (max-width: 500px) {
+  body .firstSection .thirdDiv .btn button {
+    width: 65%;
   }
 }
 body .firstSection .thirdDiv .btn a {
