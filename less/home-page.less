@@ -1,9 +1,16 @@
-.main-container{
 
+
+body{
     background-color: #F6F2FF;
+    // border: 2px solid blue;
+
+    @media @phone {
+        margin: 0 auto;
+        width: 150%;
+    }
 
     header{
-        border: 2px solid black;
+        // border: 2px solid black;
         display: flex;
         justify-content: space-between;
         padding: 3%;
@@ -361,9 +368,6 @@
                     color: #E07BE0;
                     font-family: sans-serif;
                     width: 100%;
-
-                    
-
                 }
                 a:hover{
                     color: #420039;
@@ -373,7 +377,7 @@
         }// .footerContent
     } // footer
 
-} // .main-container
+} // body
 
 //////////// ---- Contact Page ------ //////////////
 
@@ -382,6 +386,11 @@
     background: url(https://images.pexels.com/photos/2914751/pexels-photo-2914751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     height: 100%;
     padding: 15%;
+
+    @media @phone{
+        background: none;
+        padding: 10%;
+    }
 
     .secTwo{
         display: flex;
@@ -402,6 +411,11 @@
             box-shadow: 0 0 20px #000000b3;
             letter-spacing: 1px;
             opacity: 0.9;
+
+            @media @phone{
+                top: 45%;
+                width: 100%;
+            }
     
             .c-h1{
                 line-height: 2.5;
