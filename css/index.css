@@ -240,10 +240,11 @@ body .img-div {
 @media (max-width: 500px) {
   body .img-div {
     padding: 150px;
+    height: 70vh;
   }
 }
 body .img-div .img-h3 {
-  margin-left: 6%;
+  margin-left: 16%;
   margin-bottom: 1%;
   color: white;
   font-size: 4rem;
@@ -261,7 +262,7 @@ body .img-div .img-h3 {
   }
 }
 body .img-div .img-p {
-  margin-left: 6%;
+  margin-left: 16%;
   color: white;
   font-size: 3rem;
   letter-spacing: 1px;
