@@ -228,7 +228,7 @@ body header h1 {
   margin-left: 3%;
 }
 body .img-div {
-  background: url(../design-files/planeride.jpg) no-repeat;
+  background: url(https://media.mnn.com/assets/images/2019/03/girl_on_plane.jpg.653x0_q80_crop-smart.jpg) no-repeat;
   height: 78vh;
   width: 100%;
   display: block;
@@ -243,7 +243,7 @@ body .img-div {
   }
 }
 body .img-div .img-h3 {
-  margin-left: 6%;
+  margin-left: 16%;
   margin-bottom: 1%;
   color: white;
   font-size: 4rem;
@@ -261,7 +261,7 @@ body .img-div .img-h3 {
   }
 }
 body .img-div .img-p {
-  margin-left: 6%;
+  margin-left: 16%;
   color: white;
   font-size: 3rem;
   letter-spacing: 1px;
