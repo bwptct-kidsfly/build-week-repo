@@ -427,15 +427,15 @@ html {
   color: #420039;
   font-size: 1.8rem;
 }
-header {
+.headerTwo {
   border-bottom: 3px solid #932F6D;
 }
-section {
+.secTwo {
   display: flex;
   justify-content: center;
   margin-bottom: 20%;
 }
-section .contact-form {
+.secTwo .contact-form {
   width: 85%;
   max-width: 600px;
   background: #420039;
@@ -447,11 +447,11 @@ section .contact-form {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
-section .contact-form .c-h1 {
+.secTwo .contact-form .c-h1 {
   line-height: 2.5;
   color: #F6F2FF;
 }
-section .contact-form .text-box {
+.secTwo .contact-form .text-box {
   color: #F6F2FF;
 }
 footer {
