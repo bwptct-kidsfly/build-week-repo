@@ -239,7 +239,7 @@ body .img-div {
 }
 @media (max-width: 500px) {
   body .img-div {
-    padding: 170px;
+    padding: 120px;
   }
 }
 body .img-div .img-h3 {
