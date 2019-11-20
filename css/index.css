@@ -258,7 +258,7 @@ body .img-div .img-h3 {
   body .img-div .img-h3 {
     font-size: 3rem;
     position: relative;
-    right: 30%;
+    right: 90%;
   }
 }
 body .img-div .img-p {
@@ -273,7 +273,7 @@ body .img-div .img-p {
     width: 300px;
     font-size: 2rem;
     position: relative;
-    right: 30%;
+    right: 90%;
   }
 }
 body .intro {
