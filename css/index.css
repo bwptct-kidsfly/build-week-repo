@@ -597,8 +597,12 @@ body footer .footerContent nav a:hover {
   opacity: 1;
 }
 #footerTwo {
-  border-top: 3px solid #932F6D;
   background-color: #F6F2FF;
+}
+@media (max-width: 500px) {
+  #footerTwo {
+    background-color: #932F6D;
+  }
 }
 #footerTwo .footerContent nav a {
   color: #420039;
