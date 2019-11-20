@@ -431,9 +431,6 @@ html {
   color: #420039;
   font-size: 1.8rem;
 }
-.headerTwo {
-  border-bottom: 3px solid #932F6D;
-}
 .bg-img {
   background: url(https://images.pexels.com/photos/2914751/pexels-photo-2914751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   height: 100%;
@@ -497,6 +494,10 @@ html {
   color: #932F6D;
   opacity: 1;
 }
-footer {
-  border-top: 3px solid #420039;
+#footerTwo {
+  border-top: 3px solid #932F6D;
+  background-color: #F6F2FF;
+}
+#footerTwo .footerContent nav a {
+  color: #420039;
 }
