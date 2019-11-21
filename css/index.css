@@ -256,7 +256,7 @@ body .img-div .img-h3 {
 }
 @media (max-width: 500px) {
   body .img-div .img-h3 {
-    margin-top: 5%;
+    margin-top: 10%;
     font-size: 3rem;
     position: relative;
     right: 90%;
@@ -271,7 +271,7 @@ body .img-div .img-p {
 }
 @media (max-width: 500px) {
   body .img-div .img-p {
-    margin-top: 5%;
+    margin-top: 10%;
     width: 300px;
     font-size: 2rem;
     position: relative;
