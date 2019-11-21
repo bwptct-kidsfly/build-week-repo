@@ -9,6 +9,10 @@ body{
         width: 100%;
     }
 
+    @media @tablet{
+        width: 100%;
+    }
+
     header{
         // border: 2px solid black;
         display: flex;
@@ -29,6 +33,15 @@ body{
             
             span{
                 color: #932F6D;
+            }
+
+            @media @tablet{
+                border: @borderBoxRed;
+                width: 75%;
+            }
+
+            @media @phone{
+                text-align: center;
             }
         } // .h1
     
@@ -70,12 +83,21 @@ body{
             font-weight: bold;
             font-style: italic;
             font-family: serif, sans-serif;
+            width: 100%;
 
             @media @phone{
                 margin-top: 17%;
                 font-size: 3rem;
                 position: relative;
                 right: 90%; // 30%
+                width: 100%;
+
+            }
+
+            @media @tablet{
+                // border: @borderBoxRed;
+                width: 100%;
+                font-size: 3rem;
             }
         }
         
@@ -85,9 +107,17 @@ body{
             font-size: 3rem;
             letter-spacing: 1px;
             font-family: serif, sans-serif;
+            width: 450px;
+            // border: @borderBoxBlue;
+
+            @media @tablet{
+                // border: @borderBoxRed;
+                width: 283px;
+                font-size: 2rem;
+            }
 
             @media @phone{
-                // border: 1px solid white;
+                // border: @borderBoxRed;
                 margin-top: 17%;
                 width: 300px;
                 font-size: 2rem;
@@ -97,37 +127,54 @@ body{
         }
     }
 
-    .intro{
-        text-align: center;
-        padding-top: 2%;
-        padding-bottom: 2%;
+    .intro-section{
+        display: flex;
+        justify-content: center;
+        // border: @borderBoxRed;
+        margin-right: 1%;
+        margin-left: 1%;
 
-        @media @phone{
-            padding: 1%;
+        .intro{
+            text-align: center;
             padding-top: 2%;
-        }
+            padding-bottom: 2%;
+            
+    
+    
+            @media @phone{
+                padding: 1%;
+                padding-top: 2%;
+            }
+    
+            @media @tablet{
+                // border: @borderBoxRed;
+                width: 80%;
+            }
+    
+            h2{
+            color: #932F6D;
+            font-size: 3.5rem;
+            font-family: 'PT sans', sans-serif;
+            font-weight: 200;
+    
+            @media @phone{
+                padding: 2%;
+            }
+            }
+    
+            p{
+                color: #420039;
+                opacity: 0.7;
+                font-size: 2rem;
+                // border: @borderBoxRed;
+                .pText();
+                font-family: 'Source Sans Pro', sans-serif;
+                padding: 7%;
+            }
+        }// .intro
 
-        h2{
-        color: #932F6D;
-        font-size: 3.5rem;
-        font-family: 'PT sans', sans-serif;
-        font-weight: 200;
-
-        @media @phone{
-            padding: 2%;
-        }
-        }
-
-        p{
-            color: #420039;
-            opacity: 0.7;
-            font-size: 2rem;
-            // border: @borderBoxRed;
-            .pText();
-            font-family: 'Source Sans Pro', sans-serif;
-            padding: 6%;
-        }
-    }
+    }// .intro-section
+    
 
     .firstSection{
         display: flex;
@@ -141,6 +188,11 @@ body{
         padding-right: 2%;
 
         @media @phone{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @media @tablet{
             flex-direction: column;
             align-items: center;
         }
@@ -162,6 +214,12 @@ body{
             margin-right: 1%;
             padding: 2%;
 
+            @media @tablet{
+                // border: @borderBoxRed;
+                width: 70%;
+                margin-bottom: 10%;
+            }
+
             .btn{
                 margin-top: 34%;
                 // border: @borderBoxBlue;
@@ -169,6 +227,11 @@ body{
                 @media @phone{
                     margin-top: 7%;
                     margin-bottom: 10%;
+                }
+
+                @media @tablet{
+                    // border: @borderBoxBlue;
+                    margin-top: 7%;
                 }
 
                 a{
@@ -197,12 +260,22 @@ body{
             margin-right: 1%;
             padding: 2%;
 
+            @media @tablet{
+                // border: @borderBoxRed;
+                width: 70%;
+                margin-bottom: 10%;
+            }
+
             .btn{
                 margin-top: 27%;
 
                 @media @phone{
                     margin-top: 4%;
                     margin-bottom: 10%;
+                }
+
+                @media @tablet{
+                    margin-top: 7%;
                 }
 
                 a{
@@ -218,6 +291,10 @@ body{
                 @media @phone{
                     padding: 5%;
                 }
+
+                @media @tablet{
+                    padding: 1%;
+                }
             }
             
         }// .secondDIv
@@ -229,6 +306,10 @@ body{
             p{
                 color: #420039; 
                 opacity: 0.7;
+
+                @media @tablet{
+                    padding: 1%;
+                }
             }
 
             .btn{

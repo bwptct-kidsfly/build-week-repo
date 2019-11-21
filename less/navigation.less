@@ -13,6 +13,10 @@
         margin-top: 3%;
         margin-right: 0;   
     }
+
+    @media @tablet{
+        width: 100%;
+    }
     
 
     nav{
@@ -28,21 +32,28 @@
             // border: 1px solid black;
         }
 
+
         a{
-            // border: 1px solid red;
+            border: 1px solid red;
             width: 15%;
-            margin-right: 1%;
+            // margin-right: 1%;
             text-decoration: none;
-            font-size: 2rem;
+            font-size: 1.7rem;
             color:#932F6D;
             font-family: sans-serif;
             padding-top: 1%;
 
             @media @phone{
                 // border: 1px solid red;
+                font-size: 1.5rem;
                 margin-right: 0;
                 width: 100%;
-                font-size: 1.8rem;
+            }
+
+            @media @tablet{
+                // border: @borderBoxRed;
+                width: 100%;
+                font-size: 1.5rem;
             }
         } // a
 
@@ -59,6 +70,11 @@
                 border-bottom: none;
             }
 
+            @media @tablet{
+                font-size: 1.7rem;
+                box-shadow: none;
+                border-bottom: none;
+            }
         }
     }// nav
 } // header-nav
