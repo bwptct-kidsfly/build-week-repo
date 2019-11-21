@@ -173,7 +173,6 @@ html body {
   }
 }
 .header-nav nav a {
-  border: 1px solid red;
   width: 15%;
   text-decoration: none;
   font-size: 1.7rem;
@@ -248,7 +247,6 @@ body header .h1 span {
 }
 @media (max-width: 800px) {
   body header .h1 {
-    border: 2px solid red;
     width: 75%;
   }
 }
@@ -346,6 +344,7 @@ body .intro-section .intro {
   body .intro-section .intro {
     padding: 1%;
     padding-top: 2%;
+    margin-bottom: 7%;
   }
 }
 @media (max-width: 800px) {
@@ -744,6 +743,14 @@ body footer .footerContent nav a:hover {
   margin-right: 1%;
   justify-content: center;
 }
+@media (max-width: 800px) {
+  .container .squad {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
 @media (max-width: 500px) {
   .container .squad {
     flex-direction: column;
@@ -761,6 +768,12 @@ body footer .footerContent nav a:hover {
   margin: 1%;
   border-radius: 2%;
   padding: 2%;
+}
+@media (max-width: 800px) {
+  .container .squad .squadMember {
+    width: 100%;
+    margin-bottom: 10%;
+  }
 }
 @media (max-width: 500px) {
   .container .squad .squadMember {
@@ -796,6 +809,12 @@ body footer .footerContent nav a:hover {
   width: 100%;
   justify-content: center;
 }
+@media (max-width: 800px) {
+  .container2 .lead {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
 .container2 .leader {
   background-color: #420039;
   box-shadow: 0 0 20px #932F6D;
@@ -810,6 +829,14 @@ body footer .footerContent nav a:hover {
 @media (max-width: 500px) {
   .container2 .leader {
     width: 75%;
+    margin-right: 11%;
+    margin-left: 11%;
+  }
+}
+@media (max-width: 800px) {
+  .container2 .leader {
+    width: 100%;
+    margin-top: -3%;
   }
 }
 .container2 .leader p.title {

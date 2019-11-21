@@ -36,7 +36,7 @@ body{
             }
 
             @media @tablet{
-                border: @borderBoxRed;
+                // border: @borderBoxRed;
                 width: 75%;
             }
 
@@ -144,6 +144,7 @@ body{
             @media @phone{
                 padding: 1%;
                 padding-top: 2%;
+                margin-bottom: 7%;
             }
     
             @media @tablet{
@@ -612,6 +613,13 @@ body{
         width: 100%;
         margin-right: 1%;
         justify-content: center;
+        
+        @media @tablet{
+            display: flex;
+            flex-direction: column;
+            padding-right: 10%;
+            padding-left: 10%;
+        }
 
         @media @phone{
             flex-direction: column;
@@ -631,6 +639,11 @@ body{
             border-radius: 2%;
             padding: 2%;
 
+            @media @tablet{
+                width: 100%;
+                margin-bottom: 10%;
+            }
+
             @media @phone{
                 width: 75%;
                 margin-bottom: 10%;
@@ -641,7 +654,8 @@ body{
                 font-size: 1.5rem;
                 margin: 2% 0;
             }
-        }
+
+        }// .squadmember
     }// .squad
 } // .container
 
@@ -670,6 +684,11 @@ body{
         text-align: center;
         width: 100%;
         justify-content: center;
+
+        @media @tablet{
+            padding-right: 10%;
+            padding-left: 10%;
+        }
     }
 
     .leader{
@@ -685,6 +704,14 @@ body{
 
         @media @phone{
             width: 75%;
+            margin-right: 11%;
+            margin-left: 11%;
+        }
+
+        @media @tablet{
+        //    display: inline-block;
+           width: 100%;
+           margin-top: -3%;
         }
 
         p.title{
